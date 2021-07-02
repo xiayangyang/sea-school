@@ -21,8 +21,6 @@
     <module>sea-app-server</module>
     <module>sea-pc-server</module>
     <module>sea-exams</module>
-    <module>sea-identity</module>
-      <module>sea-identitys</module>
   </modules>
 
   <name>sea-school</name>

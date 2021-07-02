@@ -1,10 +1,16 @@
 spring:
   application:
-    name: sea-answer-card
+    name: sea-analysis
   cloud:
     nacos:
       config:
-        server-addr: 127.0.0.1:8848 #nacos中心地址
         file-extension: yaml # 配置文件格式
-        namespace: e6331d23-204d-49db-ba0b-824db12f9926
-        group: local
+        namespace: 53a928bc-dea4-484b-83e8-10229c356874 #local
+        #namespace: 8a211ef0-c96c-4e91-8189-75d3f50f5b83 #dev
+        #namespace: 5aa87e69-be52-4fcd-8877-0d5b07da1d65 #test
+        #namespace: b720c72b-1f29-4962-a171-ea12b28af258 #prod
+  profiles:
+    active: local # 环境标识
+    #active: dev # 环境标识
+    #active: test # 环境标识
+    #active: prod # 环境标识
