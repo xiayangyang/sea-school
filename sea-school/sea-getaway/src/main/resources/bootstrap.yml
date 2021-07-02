@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sea-gateway
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml # 配置文件格式
+        namespace: 32dd0ade-0158-436b-bd38-85446e7d6bab
+        group: local

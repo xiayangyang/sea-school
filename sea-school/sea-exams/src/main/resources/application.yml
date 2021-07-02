@@ -1,0 +1,15 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: sea-exams
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/fishing?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  cloud:
+    #配置nacos服务注册和服务发现
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

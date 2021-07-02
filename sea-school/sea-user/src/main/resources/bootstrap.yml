@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sea-analysis
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml # 配置文件格式
+        namespace: 53a928bc-dea4-484b-83e8-10229c356874
+        group: local
+  profiles:
+    active: dev # 环境标识

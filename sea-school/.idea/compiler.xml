@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sea-getaway" />
+        <module name="sea-answer-card" />
+        <module name="sea-question" />
+        <module name="sea-app-server" />
+        <module name="sea-user" />
+        <module name="sea-pc-server" />
+        <module name="sea-exams" />
+        <module name="sea-" />
+        <module name="sea-identitys" />
+        <module name="sea-base" />
+        <module name="sea-web-server" />
+        <module name="sea-common" />
+        <module name="sea-analysis" />
+        <module name="sea-identity-storage" />
+        <module name="sea-template" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sea-" target="1.8" />
+      <module name="sea-config" target="1.8" />
+      <module name="sea-exam" target="1.8" />
+      <module name="sea-exam1" target="1.8" />
+      <module name="sea-identity" target="1.8" />
+      <module name="sea-identity-storage" target="1.8" />
+      <module name="sea-identitys" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
