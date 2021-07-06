@@ -9,6 +9,10 @@ spring:
         #namespace: 8a211ef0-c96c-4e91-8189-75d3f50f5b83 #dev
         #namespace: 5aa87e69-be52-4fcd-8877-0d5b07da1d65 #test
         #namespace: b720c72b-1f29-4962-a171-ea12b28af258 #prod
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+        port: 9999
   profiles:
     active: local # 环境标识
     #active: dev # 环境标识
